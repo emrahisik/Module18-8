@@ -1,0 +1,29 @@
+
+body {
+  padding: 10px;
+}
+
+div{
+    padding-right: 10px;
+}
+
+label,
+textarea,
+input,
+button {
+  margin: auto 5px 25px 5px;
+}
+textarea,
+input {
+  width: 100%;
+}
+textarea {
+    height: 150px;
+}
+
+@media all and (min-width: 800px) {
+  textarea,
+  input {
+    width: 500px;
+  }
+}
